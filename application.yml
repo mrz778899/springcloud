@@ -1,0 +1,11 @@
+server:
+  port: 40000
+
+spring:
+    application:
+        name: 08-config-server
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/mrz778899/springcloud

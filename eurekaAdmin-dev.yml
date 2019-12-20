@@ -10,3 +10,14 @@ management:
   endpoint:
     health:
       show-details: always
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/bookmall?useUnicode=true&characterEncoding=utf8
+    password: 377543460
+qiniu_accessKey: RlhYrYK_sEHIG-zVLwwOT4G95wO8ljaHAW4yoGZE
+qiniu_secretKey: TD7yniZn7OI7eZ2vjKO4m9fB4hPpsnF_EXHZRXnH
+qiniu_bucket: sllmall
+qiniu_url: http://q1ia9ctpq.bkt.clouddn.com
+#JPA Configuration:
